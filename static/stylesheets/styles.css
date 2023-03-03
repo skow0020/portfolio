@@ -1,0 +1,159 @@
+@font-face {
+    /*src: url("../fontpacks/upheavtt.ttf");*/
+
+
+    src: url("../fontpacks/Retro Gaming.ttf");
+    /*src: url("../fontpacks/alagard.ttf");*/
+
+    /*src: url("../fontpacks/04B_30__.ttf");*/
+    font-family: RetroGaming;
+}
+
+:root {
+    --light-shade: #E2E1D7;
+    --light-accent: #7681A1;
+    --main-brand: #e63746;
+    --dark-accent: #1d3557;
+    --dark-shade: #1E1C26;
+    --dark-secondary: #0B0B0C;
+}
+
+body {
+    font-family: RetroGaming;
+}
+
+.container {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.main-brand {
+    color: var(--main-brand);
+}
+
+.dark-accent {
+    color: var(--dark-accent);
+}
+
+.light-accent {
+    color: var(--light-accent);
+}
+
+.light-shade {
+    color: var(--light-shade);
+}
+
+.bg-light-shade {
+    background-color: var(--light-shade);
+}
+
+.bg-dark-shade {
+    background-color: var(--dark-shade);
+}
+
+.bg-dark-accent {
+    background-color: var(--dark-accent);
+}
+
+.bg-bubble {
+    background: url("../images/chat-bubble-1.svg") no-repeat center;
+    background-size: contain;
+}
+
+.bars {
+    max-width: 256px;
+}
+
+.health {
+    color: red;
+}
+
+.energy {
+    color: orange;
+}
+
+.exp {
+    color: green;
+}
+
+
+
+.work-history-row>.col {
+    padding-bottom: 25px;
+    max-width: 250px;
+}
+
+.work-history-img:hover {
+    background-color: lightgray;
+}
+
+.work-history-img {
+    height: 125px;
+    width: 175px;
+    background-color: var(--light-shade);
+    padding: 25px;
+    transition: background-color 1s ease;
+}
+
+.tab-header {
+    color: var(--dark-accent);
+    border-bottom: solid;
+    border-bottom-color: var(--dark-accent);
+    border-bottom-width: 2px;
+    max-width: 175px;
+    text-transform: uppercase;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.text-bg-dark-accent {
+    background-color: var(--dark-accent);
+}
+
+.pixel-plug {
+    max-width: 475px;
+}
+
+.pixel-pill svg #inside {
+    color: var(--light-accent);
+}
+
+.pixel-pill svg #border {
+    color: var(--dark-accent);
+}
+
+.pixel-pill #pixelpill #shine {
+    color: var(--light-shade);
+}
+
+.carousel-item {
+    height: 350px;
+}
+
+.quote {
+    max-width: 325px;
+}
+
+.salutation {
+    height: 375px;
+}
+
+.salutation-content {
+    max-width: 375px;
+}
+
+.social-link {
+    color: var(--light-accent);
+    text-decoration: none;
+    transition: color 0.25s ease
+}
+
+.social-link:hover {
+    color: var(--dark-accent);
+}
