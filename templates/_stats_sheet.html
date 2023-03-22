@@ -1,5 +1,5 @@
-<div class="container" id="character">
-    <h1 class="main-brand pb-5 text-uppercase">Character Sheet</h1>
+<div class="container" id="stats">
+    <h1 class="main-brand pb-5">Colin Skow</h1>
     <div class="row fs-5">
         <div class="col">
             <!-- maybe use stacks here -->
@@ -7,30 +7,23 @@
                 <div class="col">
                     <img src="{{ url_for('static', filename='images/zoid.jpg') }}" alt="Me">
                 </div>
-                <div class="col">
-                    <p class="mb-0">Colin</p>
-                    <p class="mb-0">Human Quality Engineer</p>
-                    <div class="pt-2">
-                        <p class="fs-3 mb-0 pb-0">Level 7</p>
-                        <div class="mt-5">
-                            <p class="text-small mb-0 pb-0 text-center">EXP TO NEXT LEVEL</p>
-                            <p class="text-center fs-4">223</p>
-                        </div>
-                    </div>
+                <div class="col fs-4">
+                    <!-- <p class="mb-0">Colin</p> -->
+                    <p class="mb-0">SDET / Quality Engineering Consultant</p>
                 </div>
             </div>
-            <div class="pb-2">
+            <!-- <div class="pb-2">
                 <div class="hstack">
-                    <span class="me-auto">Health</span>
-                    <span>345 / 345</span>
+                    <span class="me-auto">Speed</span>
+                    <span>90 / 100</span>
                 </div>
                 <div class="hstack">
                     <span class="me-auto">Energy</span>
-                    <span>170 / 200</span>
+                    <span>80 / 100</span>
                 </div>
                 <div class="hstack">
-                    <span class="me-auto">Exp</span>
-                    <span>2999</span>
+                    <span class="me-auto">Clutch</span>
+                    <span>Yes</span>
                 </div>
             </div>
             <div class="pb-2">
@@ -45,9 +38,9 @@
                 </div>
                 <div class="hstack gap-4 pb-2">
                     <img width="32px" src="{{ url_for('static', filename='images/pixelstar.png') }}" alt="Star">
-                    <span>TS/JS</span>
+                    <span>Playwright</span>
                 </div>
-            </div>
+            </div> -->
 
 
         </div>
@@ -77,15 +70,15 @@
                         {# Abilities#}
                         {# </button>#}
                     {# </li>#}
-                <li class="nav-item" role="presentation">
+                <!-- <li class="nav-item" role="presentation">
                     <button class="btn btn-outline-dark active" id="pills-feats-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-feats" type="button" role="tab" aria-controls="pills-feats"
                         aria-selected="true">
                         Feats
                     </button>
-                </li>
+                </li> -->
                 <li class="nav-item" role="presentation">
-                    <button class="btn btn-outline-dark" id="pills-abilities-tab" data-bs-toggle="pill"
+                    <button class="btn btn-outline-dark active" id="pills-abilities-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-abilities" type="button" role="tab" aria-controls="pills-abilities"
                         aria-selected="false">
                         Abilities
@@ -114,16 +107,17 @@
                 </li>
             </ul>
             <div class="tab-content fs-5" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-feats" role="tabpanel"
+                <!-- <div class="tab-pane fade show active" id="pills-feats" role="tabpanel"
                     aria-labelledby="pills-feats-tab" tabindex="0">
                     <span class="badge rounded-pill text-bg-dark-accent">Climbed Mt Everest</span>
-                </div>
-                <div class="tab-pane fade" id="pills-abilities" role="tabpanel" aria-labelledby="pills-abilities-tab"
-                    tabindex="0">
+                </div> -->
+                <div class="tab-pane fade show active" id="pills-abilities" role="tabpanel"
+                    aria-labelledby="pills-abilities-tab" tabindex="0">
                     <span class="badge rounded-pill text-bg-dark-accent">Quality Engineering</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Continuous Integration</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Continuous Deployment</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Continuous Testing</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Agile Software Development</span>
                     <span class="badge rounded-pill text-bg-dark-accent">UI Testing</span>
                     <span class="badge rounded-pill text-bg-dark-accent">API Testing</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Build Pipelines</span>
@@ -134,10 +128,17 @@
                     tabindex="0">
                     <span class="badge rounded-pill text-bg-dark-accent">Playwright</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Cypress</span>
-                    <span class="badge rounded-pill text-bg-dark-accent">Selenium</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Selenium/Appium</span>
                     <span class="badge rounded-pill text-bg-dark-accent">Cucumber</span>
                     <span class="badge rounded-pill text-bg-dark-accent">React</span>
                     <span class="badge rounded-pill text-bg-dark-accent">React Testing Library</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Postman</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">RestSharp/Assured</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Jest</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">JUnit</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Jenkins</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Azure Pipelines</span>
+                    <span class="badge rounded-pill text-bg-dark-accent">Github Actions</span>
                 </div>
                 <div class="tab-pane fade" id="pills-languages" role="tabpanel" aria-labelledby="pills-languages-tab"
                     tabindex="0">

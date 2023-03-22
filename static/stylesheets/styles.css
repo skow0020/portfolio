@@ -3,18 +3,19 @@
 
 
     src: url("../fontpacks/Retro Gaming.ttf");
-    /*src: url("../fontpacks/alagard.ttf");*/
+    src: url("../fontpacks/PlayfairDisplay-Regular.ttf");
+    /* src: url("../fontpacks/alagard.ttf"); */
 
     /*src: url("../fontpacks/04B_30__.ttf");*/
-    font-family: RetroGaming;
+    font-family: 'Playfair Display', serif;
 }
 
 :root {
-    --light-shade: #E2E1D7;
+    --light-shade: #ffffff;
     --light-accent: #7681A1;
-    --main-brand: #e63746;
-    --dark-accent: #1d3557;
-    --dark-shade: #1E1C26;
+    --main-brand: #010000;
+    --dark-accent: #1047a7;
+    --dark-shade: #512801;
     --dark-secondary: #0B0B0C;
 }
 
@@ -60,7 +61,7 @@ body {
 }
 
 .bg-bubble {
-    background: url("../images/chat-bubble-1.svg") no-repeat center;
+    background: url("../images/speechbubble.png") no-repeat center;
     background-size: contain;
 }
 
@@ -68,7 +69,7 @@ body {
     max-width: 256px;
 }
 
-.health {
+.speed {
     color: red;
 }
 
@@ -76,7 +77,7 @@ body {
     color: orange;
 }
 
-.exp {
+.clutch {
     color: green;
 }
 
